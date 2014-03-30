@@ -32,15 +32,15 @@
 						<input type="submit" name="submit" value="Submit"/>
 				</form>
 	   			<div id="msg">${msg}</div>
-	   			<h4>Nube App</h4>
+	   			<h4>Static App</h4>
 	   			<p id="help">
-	   			A Nube app may contain static files including html, scripts, styles, images, videos etc.
+	   			An app may contain static files including html, scripts, styles, images, videos etc.
 	   			Root folder should also contain a <a href="/~core/sample/lic.key">lic.key</a> to make it active in cloud.
 	   			Package all the contents in to a zip file and upload to cloud. 
 	   			</p>
-	   			<h4>Nube Dynamic App</h4>
+	   			<h4>Dynamic App</h4>
 	   			<p id="help">
-	   			Future version of Nube app will allow server side javascripting to access any http resources(REST).
+	   			Future version of app cloud will allow server side javascripting to access any http resources(REST).
 	   			</p>
         </div>
         <div class="tab-pane" id="app-history">
