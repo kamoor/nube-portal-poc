@@ -34,7 +34,6 @@ public class AppRetriverService {
 	AppBundleDao appBundleDao;
 	
 	
-	Map<String, GridFSDBFile> cacheMap = new HashMap<String, GridFSDBFile>();
 	
 	static Logger logger = Logger.getLogger(AppRetriverService.class);
 	
@@ -45,9 +44,6 @@ public class AppRetriverService {
 	 */
 	public GridFSDBFile read(String domain, String uri) throws NubeException{
 		
-		if(cacheMap.containsKey(domain + uri)){
-			return cacheMap.get(domain + uri);
-		}
 		
 		//Find app info, current version etc, url etc
 		BasicDBObject appInfo = this.findAppInfo(domain, uri);
@@ -58,7 +54,6 @@ public class AppRetriverService {
 		//Remove context and version
 		GridFSDBFile file = appFileDao.read(context, currentVersion, this.makeFileUri(domain, uri, context, currentVersion, appInfo));
 		
-		cacheMap.put(domain + uri, file);
 		
 		return file;
 		

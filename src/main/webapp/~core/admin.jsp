@@ -14,7 +14,7 @@
  
 <div class="container">
  <header>
-     <h1><span>Nube</span> <span> Cloud</span></h1>
+     <h1><span>App</span> <span> Cloud</span></h1>
  </header>
 <!-------->
 <div id="content">
