@@ -1,0 +1,53 @@
+@font-face {
+	font-family: AlphaSmoke;
+	src: url(fonts/AlphaSmoke.ttf);
+}
+
+@font-face {
+	font-family: CloudNine;
+	src: url(fonts/cloud-nine/CloudNine.ttf);
+}
+
+header, footer {
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #2ACBE0),
+	color-stop(1, #275CB8),
+	color-stop(1, #2D71A1),
+	color-stop(1, #0E33AD)
+);
+background-image: -o-linear-gradient(top, #2ACBE0 0%, #275CB8 100%, #2D71A1 100%, #0E33AD 100%);
+background-image: -moz-linear-gradient(top, #2ACBE0 0%, #275CB8 100%, #2D71A1 100%, #0E33AD 100%);
+background-image: -webkit-linear-gradient(top, #2ACBE0 0%, #275CB8 100%, #2D71A1 100%, #0E33AD 100%);
+background-image: -ms-linear-gradient(top, #2ACBE0 0%, #275CB8 100%, #2D71A1 100%, #0E33AD 100%);
+background-image: linear-gradient(to top, #0E1D1F 0%, #4D74B9 100%, #2D71A1 100%, #232733 100%);
+
+padding: 20px;
+color: #FFFFFF;
+}
+
+header {
+	margin-bottom: 20px;
+	
+}
+
+footer {
+	margin-top: 20px;
+}
+footer p {
+	margin: 0;
+	text-align: right;
+}
+
+header h1 {
+	font-family: aerial;
+	font-size: 32px;
+	margin-bottom: 30px;
+	
+}
+
+#content {
+	min-height: 500px;
+}

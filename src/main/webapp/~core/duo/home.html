@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://blog.duolingo.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" style="position: relative; -webkit-transition: right 0.25s ease-in-out; transition: right 0.25s ease-in-out; right: 0px;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ 
+ 
+    <!--
+    <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_2bcb6e04303d_128.png">
+    -->
+    
+    <title>Official Duolingo Blog</title>
+    <!-- Default values -->
+
+    <style>
+    /* General styling */
+    html, body {
+        height: 100%;
+    }
+    
+    body {
+        padding: 0; margin: 0;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 19px;
+        color: #404040;
+        
+    }
+   
+    
+    a { 
+    	color: #0069d6; 
+    	text-decoration: none; 
+      } 
+    a:hover { 
+    	color: #0050A3; 
+    	text-decoration: underline; 
+    	}
+    a img { 
+    	outline: 0; 
+    	border: none; 
+    	}
+    img {
+        display: block;
+        margin: 0;
+    }
+    ul, ol {
+        padding: 0;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        }
+    
+    p {
+        margin: 0 0 15px 0;
+        line-height: 15px;
+    }
+    hr {
+        height: 0%;
+        border: none;
+        border-top: 1px solid #dfdfdf;
+        margin: 20px 0;
+    }
+    /* Headlines */
+    
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: #404040;
+        line-height: 12px;
+    }
+    
+    h2 {
+        color: #404040;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+    }
+    
+    h3 {
+        color: #404040;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+    }
+    ul{
+     list-style: none;
+    }
+    
+     #main {
+      width: 1000px;
+      margin: 0 auto;
+      padding: 40px 0 0 0;
+      min-height: 850px;
+    }
+    
+    .clearfix:after { content: "."; height: 0; clear: both; visibility: hidden; }
+
+    .clearfix { zoom: 1; }
+    
+    #container {
+        min-height: 100%;
+        background: url("http://static.duolingo.com/images/landscapes/duo-land_mv_5b9d2a8c1d4c47326e47596ef82c4fa0.jpg") no-repeat bottom center  #BDDDEB;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .topbar {
+        height: 40px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        overflow: visible;
+        background: #58488a; /* Old browsers */
+           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+        -mozilla-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    }
+    .topbar .logo {
+        background: url("blog_files/logo7.png") center no-repeat;
+        float: left;
+        display: block;
+        height: 40px;
+        width: 200px;
+        text-indent: -100000px;
+    }
+    .topbar .logo:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+        color: white;
+        text-decoration: none;
+    }
+    .topbar .topnav,.topbar .topnavleft {
+     	background-color: none;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    } 
+    .topbar .topnav {
+        float: right;
+        font-size: 14px;
+    }
+    .topbar .topnavleft {
+        float: left;
+        font-size: 16px;
+    }
+    .topbar .topnav > li, .topbar .topnavleft > li {
+      float: left;
+      padding-right: 11px;
+      font-weight:bold;
+    }
+   
+    ul.posts {
+        float: left;
+        margin: 30px 0 100px 6px;
+        
+    }
+    ul.posts > li {
+        width: 600px;
+        padding: 40px;
+        border: 1px solid rgba(0,0,0,0.35);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        -mozilla-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        background: white;
+        -webkit-border-radius: 5px;
+        -mozilla-border-radius: 5px;
+        border-radius: 5px;
+        margin: 0 0 4px 0;
+    }
+    ul.posts > li p {
+        margin: 0 0 30px 0;
+        line-height: 15px;
+    }
+    ul.posts > li h3 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    ul.posts > li .footer {
+        text-align: right;
+        font-weight: bold;
+        min-height: 20px;
+    }
+   
+    .sidebar {
+        float:left;
+        width: 254px;
+        margin: 0;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    }
+    .sidebar .about {
+        color: #56727e;
+        margin: 10px 0 40px 0;
+        line-height: 10px;
+    }
+    .sidebar .about a {
+        color: #404040;
+    }
+    input.search {
+        background: #aecfdd; /* Old browsers */
+        background: -moz-linear-gradient(top,  #aecfdd 0%, #9dcadd 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aecfdd), color-stop(100%,#9dcadd)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #aecfdd 0%,#9dcadd 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #aecfdd 0%,#9dcadd 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #aecfdd 0%,#9dcadd 100%); /* IE10+ */
+        background: linear-gradient(top,  #aecfdd 0%,#9dcadd 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aecfdd', endColorstr='#9dcadd',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #95c2d4;
+        height: 24px;
+        font-size: 13px;
+        padding: 0 10px;
+        -webkit-border-radius: 15px;
+        -mozilla-border-radius: 15px;
+        border-radius: 15px;
+        color: #56727e;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        -mozilla-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        
+        width: 211px;
+        margin: 5px 0 0 0;
+    }
+    input.search:focus {
+        outline: none;
+    }
+    .center {
+        text-align: center;
+    }
+    .center img {
+        margin: 0 auto;
+        display: block;
+    }
+    ul.team,ul.usr {
+        list-style: none;
+        margin: 0;
+    }
+    ul.team li,ul.usr li {
+        border: 1px solid rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        -mozilla-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        margin: 0 3px 3px 0;
+        float: left;
+    }
+    ul.team li img,ul.usr li img {
+        border: 5px solid white;
+        margin: 0;
+    }
+    .about p{
+        float:left;
+    }
+    ul.usr li img {
+        width:225px;
+        height: 225px;
+    }
+    
+    .post-head {
+        border-bottom: 1px solid #e9e9e9;
+        margin: 0 0 20px 0;
+        padding: 0 0 0 70px;
+    }
+    .post-head .avatar {
+        float: left;
+        margin: -5px 15px 0 -70px;
+    }
+    .post-head h1 {
+        margin: 0 0 5px 0;
+    }
+    .post-head h1 a {
+        color: #404040;
+    }
+    
+    .post-info {
+        color: #AAA;
+    }
+    .post-info a, .post-info a:hover {
+        color: #AAA;
+    }
+
+    .avatar {
+        border: 1px solid rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        -mozilla-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    }
+    .avatar img {
+        border: 3px solid white;
+        margin: 0;
+    }
+    
+    
+    #dsq-global-toolbar {
+        display: none;
+    }
+    #dsq-content {
+        overflow: hidden;
+    }
+    #dsq-footer {
+        display: none;
+    }
+    #disqus_thread {
+        margin: 40px 0 0 0;
+    }
+
+
+    
+    #dsq-content h3 {
+      margin: 0 0 15px 0 !important;
+    }
+    
+    div#disqus_thread .dsq-options {
+      display: none;
+    }
+    .dsq-reply {
+        position: relative;
+        margin: 20px 0 !important;
+        clear: both;
+        border-top: 1px solid #E9E9E9;
+        padding-top: 20px;
+        border-bottom: 1px solid #E9E9E9;
+    }
+    .dsq-avatar {
+        border: 1px solid rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        -mozilla-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    }
+    .dsq-avatar img {
+        width: 30px !important;
+        height: 30px !important;
+        border: 2px solid white !important;
+    }
+    
+    
+    .search_query { font-weight: bold; }
+    
+    blockquote {
+        margin: 30px 0 30px 0;
+        padding: 0 0 0 26px;
+        border-left: 4px solid #ededed;
+    }
+    
+    /* footer and its styles*/
+	#footer {
+		width:100%;
+		height:50px;
+		position:absolute;
+		bottom:0;
+		left:0;
+		background:#3a3a3a;
+		opacity: 0.8;
+	}
+
+	ul.footerul > li {
+        font-size: 14px;
+	    color: white;
+		float: right;
+		padding-right: 20px;
+    }
+   
+    
+    </style> 
+    
+<meta name="keywords" content="Kamoor - Indian Community">
+</head> 
+  <body id="" class=""> 
+  <div class="topbar"><a href="http://kamoor.com" class="logo">Kamoor</a>
+    <ul class=topnavleft>
+    	<li>Detroit</li>
+    </ul>
+    <ul class="topnav">
+    	<li>Friends</li>
+    	<li>Articles</li>
+    	<li>Videos</li>
+    </ul>
+  </div>
+ 
+  <div id="container">
+  <div id="main">
+    <div class="sidebar">
+       <!-- <a href="./blog_files/blog.html"><img src="./blog_files/duoblog-header-v1.png"></a> -->
+        <div class="about">
+            <h3>TEST SITE</h3>
+              <ul class="usr">
+                    
+                        <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/c58.0.723.723/s320x320/1425786_10151842630768235_1382254430_n.jpg" title="Duolingo"></li>
+              </ul>
+            <p>I am Ratheesh Kamoor, working as a Software Engineer in Compuware...more</p>
+            <p>Farmington Hills, MI</p>
+            <!--
+            <ul class="social-links">
+                <li><a href="http://twitter.com/duolingo" title="Duolingo on Twitter" class="twitter" target="_blank">Twitter</a></li>
+                <li><a href="http://facebook.com/duolingo" title="Duolingo on Facebook" class="facebook" target="_blank">Facebook</a></li>
+                <li><a href="http://blog.duolingo.com/rss" title="RSS feed of blog posts" class="rss" target="_blank">RSS</a></li>
+            </ul>
+            -->
+            <!--
+            <p>
+                <a href="http://www.duolingo.com/">www.duolingo.com</a>
+            </p>
+            -->
+             <form action="http://blog.duolingo.com/search" method="get"> 
+    <input type="text" class="search" name="q" value="Search" onclick="javascript:if (this.value == &#39;Search&#39;) this.value = &#39;&#39;;"> 
+    </form> 
+        </div>
+        <div class="team">
+            <h3>In Spotlight</h3>
+            
+                <ul class="team">
+                    
+                        <li><img src="./blog_files/avatar_1c2caa1f1f25_48.png" title="Duolingo"></li>
+                    
+                        <li><img src="./blog_files/avatar_d3941f0ed448_48.png" title="Gina G"></li>
+                    
+                        <li><img src="./blog_files/avatar_6e05fbcad7db_48.png" title="Hejkristinemc"></li>
+                    
+                        <li><img src="./blog_files/avatar_e486b77f6fd9_48.png" title="Luis von Ahn"></li>
+                    
+                        <li><img src="./blog_files/avatar_86f78bba33d5_48.png" title="GregoryHartman"></li>
+                    
+                        <li><img src="./blog_files/avatar_3bcd0de77cd5_48.png" title="David"></li>
+                    
+                        <li><img src="./blog_files/avatar_72d43eb31bf1_48.png" title="Burr Settles"></li>
+                    
+                        <li><img src="./blog_files/avatar_104af9ab91c5_48.png" title="SEVERIN HACKER"></li>
+                    
+                        <li><img src="./blog_files/avatar_e7464581d377_48.png" title="uekermann"></li>
+                         <li><img src="./blog_files/avatar_72d43eb31bf1_48.png" title="Burr Settles"></li>
+                    
+                        <li><img src="./blog_files/avatar_104af9ab91c5_48.png" title="SEVERIN HACKER"></li>
+                    
+                        <li><img src="./blog_files/avatar_e7464581d377_48.png" title="uekermann"></li>
+                        <li><img src="./blog_files/avatar_104af9ab91c5_48.png" title="SEVERIN HACKER"></li>
+                    
+                        <li><img src="./blog_files/avatar_e7464581d377_48.png" title="uekermann"></li>
+                         <li><img src="./blog_files/avatar_72d43eb31bf1_48.png" title="Burr Settles"></li>
+                    
+                        <li><img src="./blog_files/avatar_104af9ab91c5_48.png" title="SEVERIN HACKER"></li>
+                    
+                     
+                </ul>
+            	
+        </div>
+    </div>
+    <div>
+    <ul class="posts">
+    
+      <li class="post text">
+            <div class="post-head1">
+                    <h2>Wow. Amazing Deal</h2>
+            </div>            
+<p class="center">This is a deal space shows up only once in a while</p>
+                
+              </li>
+    
+      <li class="post text">
+            <div class="post-head clearfix">
+                
+                    <div class="avatar"><img src="./blog_files/avatar_3bcd0de77cd5_48.png"></div>
+                    <h1>The Language Coach and Virtual Shop arrive on iOS</h1>
+                    <div class="post-info">
+                        David
+                        —
+                        
+                            <a href="http://blog.duolingo.com/post/69797033534/the-language-coach-and-virtual-shop-arrive-on-ios" class="date">Dec 12, 2013</a>
+                        
+                    </div>
+                    
+                
+                
+            </div>            
+            
+            <p><span>We have exciting news today for our iOS users!</span><br><span></span><br><span>First, in the spirit of New Year’s resolutions, we’re introducing a brand new feature specially designed to help you meet your goals… beyond January. Players, meet your Coach.</span></p>
+<p class="center"><img alt="image" src="./blog_files/tumblr_inline_mxnry2H6Ke1sooq6j.png"></p>
+
+<p><br><span>Here’s how it works: You choose a difficulty level or “track,” and each day the Coach tells you how many points you’ll need to earn in order to stay on that track. Once you’ve completed those requirements for the day, the Coach will let you rest until the following day, when you’ll be able to see a brand new goal.&nbsp;</span></p>
+<p class="center"><img alt="image" src="./blog_files/tumblr_inline_mxnrzi0jhR1sooq6j.png"></p>
+<p><span>You can also build up a safety buffer for yourself, meaning that if you practice a little extra every day during the week, you can take the whole weekend off and still be on track! As long as you follow the Coach’s daily goals, you’ll reliably make your way through the course at the pace you choose.</span><br><span></span><br><span>Second, we’re introducing the Shop and our virtual currency, Lingots, to iOS. As with the Web version, you earn Lingots by doing awesomely in your language learning journey.</span></p>
+<p class="center"><img alt="image" class="center" src="./blog_files/tumblr_inline_mxns3y7Kcu1sooq6j.png"></p>
+
+<p><span>Not all store items will be immediately available on the app, but the exciting news is that we’re launching new items that will exist exclusively for iOS for now. For example, you’ll be able to buy special new outfits for Duo — turns out our designers moonlight as stylists.&nbsp;; )&nbsp;</span></p>
+<p>Download the latest version of Duolingo for iOS here: <a href="https://itunes.apple.com/app/duolingo-learn-languages-for/id570060128">https://itunes.apple.com/app/duolingo-learn-languages-for/id570060128</a></p>
+            
+            
+                
+                    <div class="footer">
+                        <a href="http://blog.duolingo.com/post/69797033534/the-language-coach-and-virtual-shop-arrive-on-ios#disqus_thread">32 Comments</a>
+                    </div>
+                
+              </li>
+        
+      
+        
+    </ul>
+    </div>
+    
+    <!--
+    		<p class="navigation">
+		        <a href="http://blog.duolingo.com/page/2" class="previous">← older </a>
+		        <span id="pages">Page 1 of 2</span>
+		        
+			</p>
+			-->
+    
+    
+  </div>
+  
+  <div id="footer">
+     <ul class="footerul">
+         <li>Contact Us<li>
+          <li>|<li>
+          
+         <li>Advertise</li>
+          <li>|<li>
+         <li>Privacy Policy</li>
+          <li>|<li>
+         <li>Terms and Conditions</li>
+  </div>
+  
+  </div>
+  
+  
+  
+</body></html>
