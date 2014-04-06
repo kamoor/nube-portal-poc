@@ -87,7 +87,7 @@ public class AppFileDaoImpl implements AppFileDao {
 	 * Read a document from document store 
 	 */
 	public GridFSDBFile read(String documentName) throws NubeException{
-		logger.info("Read " + documentName);
+		//logger.info("Read " + documentName);
 		GridFSDBFile result = gridFsForApps.findOne(documentName);
 		
 		if(result == null){

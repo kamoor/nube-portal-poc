@@ -115,7 +115,7 @@ public class AppRetriverService {
 			
 			if(InetUtil.isLocalHost(domain)){
 				//Localhost will need to use context in url
-				logger.info("[Dev] Local address found");	
+				//logger.info("[Dev] Local address found");	
 				context =  uri.split(AppConstants.SEPERATOR)[1];
 				appObject = appsDao.findByContext(context);
 			}else{
