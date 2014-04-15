@@ -6,8 +6,11 @@ Prerequisite:
 
 1. Install java, maven in local machine
 2. Require minimum JDK 1.6+
-3. Install mongo in localhost, port 27017
+3. Download and Install mongodb in localhost, start in port 27017 
 
+Project dependency
+===================
+1. This project is depend on some core components posted in https://github.com/kamoor/nube-core-parent.git. Download and install.
 
 Instructions to install and start application:
 =============================================
